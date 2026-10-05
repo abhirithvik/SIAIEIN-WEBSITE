@@ -9,11 +9,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 
 const serviceItems = [
-  { title: "AI Workflow Automation", href: "/services/ai-workflow-automation", desc: "Automate manual business processes" },
-  { title: "Agentic AI Development", href: "/services/agentic-ai-development", desc: "Custom AI agents for complex tasks" },
-  { title: "Custom Software Development", href: "/services/custom-software-development", desc: "Scalable web & mobile applications" },
-  { title: "AI Consulting & Strategy", href: "/services/ai-consulting-strategy", desc: "Strategic roadmaps for AI adoption" },
-  { title: "Data Engineering", href: "/services/data-engineering", desc: "Data pipelines and infrastructure" },
+  { title: "AI & Assistants", href: "/services/ai-assistants", desc: "Autonomous AI agents, generative intelligence & cognitive automation" },
 ];
 
 const industryItems = [

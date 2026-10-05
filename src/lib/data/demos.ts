@@ -153,6 +153,24 @@ export const agentDemos: Record<string, DemoConfig> = {
 // ========================================
 
 export const serviceDemos: Record<string, DemoConfig> = {
+    "ai-assistants": {
+        id: "ai-assistants",
+        title: "AI & Assistants Autonomous System",
+        color: "text-orange-400",
+        accentBg: "bg-orange-500",
+        tools: ["OpenAI GPT-4o", "LangGraph", "Vector DB", "Enterprise ERP", "Slack"],
+        steps: [
+            { text: "Bootstrapping SIAIEIN Cognitive Assistant Network...", type: "info", delay: 800 },
+            { text: "Connecting to OpenAI Enterprise API & Semantic Cache...", type: "processing", tool: "OpenAI GPT-4o", delay: 1000 },
+            { text: "Ingesting multi-source enterprise context & telemetry...", type: "processing", tool: "Vector DB", delay: 900 },
+            { text: "Autonomous Planner decomposed 14 complex business tasks", type: "success", delay: 600 },
+            { text: "Agent 1 (Process Automation): Reconciling 1,250 ERP ledger rows", type: "processing", tool: "Enterprise ERP", delay: 1100 },
+            { text: "Agent 2 (Intelligent IPA): Parsing 84 multilingual vendor invoices", type: "tool", delay: 950 },
+            { text: "Cross-system verification passed: 0 discrepancies found", type: "success", delay: 600 },
+            { text: "Triggering automated Slack briefing & stakeholder notifications", type: "tool", tool: "Slack", delay: 800 },
+            { text: "Continuous optimization loop active. All tasks finished in 8.2s", type: "result", delay: 700 },
+        ]
+    },
     "ai-workflow-automation": {
         id: "ai-workflow-automation",
         title: "AI Workflow Automation",

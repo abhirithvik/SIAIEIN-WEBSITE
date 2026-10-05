@@ -31,9 +31,9 @@ const footerLinks = [
   {
     heading: "Solutions",
     items: [
-      { label: "Sales and Lead Gen", href: "/services/ai-workflow-automation" },
-      { label: "Customer Support", href: "/services/agentic-ai-development" },
-      { label: "Data Processing", href: "/services/data-engineering" },
+      { label: "AI & Assistants", href: "/services/ai-assistants" },
+      { label: "Enterprise AI Solutions", href: "/services/ai-assistants#enterprise-ai-solutions" },
+      { label: "Intelligent Automation", href: "/services/ai-assistants#intelligent-process-automation" },
       { label: "Case Studies", href: "/case-studies" },
     ]
   },
