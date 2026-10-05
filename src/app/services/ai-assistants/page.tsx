@@ -254,7 +254,7 @@ export default function AiAssistantsPage() {
                   {/* Detailed Description Paragraphs */}
                   <div className="space-y-4 text-stone-300 text-sm sm:text-base leading-relaxed">
                     {pillar.overview.map((para, pIdx) => (
-                      <p key={pIdx} className="text-stone-300/90 leading-relaxed">
+                      <p key={pIdx} className="text-stone-300/90 leading-relaxed text-justify">
                         {para}
                       </p>
                     ))}
@@ -306,7 +306,7 @@ export default function AiAssistantsPage() {
                         <h4 className="text-sm font-semibold text-white mb-2 group-hover:text-orange-300 transition-colors">
                           {cap.title}
                         </h4>
-                        <p className="text-xs text-stone-400 leading-relaxed">
+                        <p className="text-xs text-stone-400 leading-relaxed text-justify">
                           {cap.description}
                         </p>
                       </div>
@@ -332,7 +332,7 @@ export default function AiAssistantsPage() {
                           {uc.metric}
                         </span>
                       </div>
-                      <p className="text-xs text-stone-400 leading-relaxed">
+                      <p className="text-xs text-stone-400 leading-relaxed text-justify">
                         {uc.description}
                       </p>
                     </div>
@@ -365,7 +365,7 @@ export default function AiAssistantsPage() {
                 <Lock className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Zero-Data-Retention & Privacy</h3>
-              <p className="text-stone-400 text-sm leading-relaxed mb-4">
+              <p className="text-stone-400 text-sm leading-relaxed mb-4 text-justify">
                 Enterprise contracts with model providers ensuring your proprietary customer data, source code, and internal IP is never used for foundation model training.
               </p>
               <ul className="space-y-2 text-xs text-stone-300">
@@ -389,7 +389,7 @@ export default function AiAssistantsPage() {
                 <Server className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Sub-Second Deterministic Execution</h3>
-              <p className="text-stone-400 text-sm leading-relaxed mb-4">
+              <p className="text-stone-400 text-sm leading-relaxed mb-4 text-justify">
                 Structured JSON schema enforcement, Redis semantic caching, and dynamic model routing ensure high-throughput execution with predictable latency.
               </p>
               <ul className="space-y-2 text-xs text-stone-300">
@@ -413,7 +413,7 @@ export default function AiAssistantsPage() {
                 <Boxes className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">Deep Tool & API Interoperability</h3>
-              <p className="text-stone-400 text-sm leading-relaxed mb-4">
+              <p className="text-stone-400 text-sm leading-relaxed mb-4 text-justify">
                 Our assistants plug directly into your internal databases, REST/GraphQL APIs, Salesforce, SAP, Jira, Slack, and cloud storage without painful rewrites.
               </p>
               <ul className="space-y-2 text-xs text-stone-300">

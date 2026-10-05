@@ -45,6 +45,27 @@
     background: rgba(249, 115, 22, 0.25);
     color: #fff;
   }
+
+  /* Global Justify Styling for Paragraphs */
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .text-center p,
+  p.text-center {
+    text-align: center;
+  }
+
+  .text-left p,
+  p.text-left {
+    text-align: left;
+  }
+
+  .text-right p,
+  p.text-right {
+    text-align: right;
+  }
 }
 
 @layer utilities {

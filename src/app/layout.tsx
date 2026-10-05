@@ -19,8 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
-      <body className={`${inter.className} ${inter.variable} ${fraunces.variable} min-h-screen flex flex-col text-foreground relative bg-[#0a0604]`}>
+    <html lang="en" className="dark scroll-smooth" suppressHydrationWarning>
+      <body 
+        className={`${inter.className} ${inter.variable} ${fraunces.variable} min-h-screen flex flex-col text-foreground relative bg-[#0a0604]`}
+        suppressHydrationWarning
+      >
         <GlobalBackground />
         <Navbar />
         <main className="flex-grow z-0 relative">{children}</main>
